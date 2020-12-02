@@ -1,0 +1,6 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../:\advent_of_code_2020\day_2_2\.idea/dataSources/
+/dataSources.local.xml
