@@ -106,7 +106,7 @@ fn count_collisions(
 
 
 fn main() {
-    let args = App::new("Day two part two of AOC 2020!!")
+    let args = App::new("Day three part one of AOC 2020!!")
         .arg(Arg::with_name("input-file").takes_value(true))
         .arg(Arg::with_name("x-slope").takes_value(true))
         .arg(Arg::with_name("y-slope").takes_value(true))
