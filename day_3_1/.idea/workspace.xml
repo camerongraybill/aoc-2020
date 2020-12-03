@@ -13,7 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf6742ca-091d-462e-b045-dc8e479cb41a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day_3_2/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../day_3_2/src/main.rs" afterDir="false" />
     </list>
@@ -119,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607007028166</updated>
-      <workItem from="1607007029735" duration="3841000" />
+      <workItem from="1607007029735" duration="3855000" />
     </task>
     <task id="LOCAL-00001" summary="Generated starting project">
       <created>1607007067603</created>
@@ -142,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607010784168</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixing comment">
+      <created>1607010916717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607010916717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +166,7 @@
     <MESSAGE value="Generated starting project" />
     <MESSAGE value="Downloaded input" />
     <MESSAGE value="Done with part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with part 1" />
+    <MESSAGE value="Fixing comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing comment" />
   </component>
 </project>
