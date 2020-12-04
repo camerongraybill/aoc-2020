@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
-  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -12,8 +9,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12c910d-7e5e-4f2e-ad07-ef3be5afc258" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f42b3f0b-2c70-4520-9e72-65806e7fd1a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="bsw2ulnf" />
+    <option name="directoryName" value="ik0z9c0b" />
   </component>
-  <component name="ProjectId" id="1l9YV7FIczVzwrBYtpHU6V2RtEV" />
+  <component name="ProjectId" id="1lCIrLFK590HdAR7NwJqpi8nNg3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,18 +37,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\advent_of_code_2020\day_3_2" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_3_2 --bin day_3_2 -- E:\advent_of_code_2020\day_3_2\input.txt (1,1) (3,1) (5,1) (7,1) (1,2)" />
+      <option name="command" value="run --package day_4_1 --bin day_4_1" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -64,35 +55,17 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a12c910d-7e5e-4f2e-ad07-ef3be5afc258" name="Default Changelist" comment="" />
-      <created>1607010794782</created>
+      <changelist id="f42b3f0b-2c70-4520-9e72-65806e7fd1a2" name="Default Changelist" comment="" />
+      <created>1607094844016</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607010794782</updated>
-      <workItem from="1607010796195" duration="1020000" />
-      <workItem from="1607012747854" duration="138000" />
-      <workItem from="1607013576234" duration="1234000" />
+      <updated>1607094844016</updated>
+      <workItem from="1607094845836" duration="82000" />
     </task>
-    <task id="LOCAL-00001" summary="Initialized repo for part 2">
-      <created>1607010830418</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607010830418</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Done with day 3!">
-      <created>1607011760631</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607011760631</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,11 +78,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initialized repo for part 2" />
-    <MESSAGE value="Done with day 3!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with day 3!" />
   </component>
 </project>
