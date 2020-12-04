@@ -13,12 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f42b3f0b-2c70-4520-9e72-65806e7fd1a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_3_2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day_4_2/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4_2/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4_2/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607094844016</updated>
-      <workItem from="1607094845836" duration="3701000" />
+      <workItem from="1607094845836" duration="4448000" />
     </task>
     <task id="LOCAL-00001" summary="Generated project for day 4 pt 1">
       <created>1607094961247</created>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607094961247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 4 pt 1 done!">
+      <created>1607098590134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607098590134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generated project for day 4 pt 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated project for day 4 pt 1" />
+    <MESSAGE value="Day 4 pt 1 done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4 pt 1 done!" />
   </component>
 </project>
