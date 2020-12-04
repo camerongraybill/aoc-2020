@@ -89,7 +89,7 @@ fn hcl_valid(data: &String) -> bool {
     data.as_bytes()[0] == b'#' && data[1..].bytes().all(|byte| (byte >= b'0' && byte <= b'9') || (byte >= b'a' && byte <= b'f'))
 }
 
-const VALID_EYE_COLORS: [&str; 7] = ["abm", "blu", "brn", "gry", "grn", "hzl", "oth"];
+const VALID_EYE_COLORS: [&str; 7] = ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"];
 
 fn ecl_valid(data: &String) -> bool {
     VALID_EYE_COLORS.contains(&&**data)

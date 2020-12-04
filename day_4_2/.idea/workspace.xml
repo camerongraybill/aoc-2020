@@ -13,9 +13,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67910d55-2f9f-4177-a226-535ab210c2ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day_4_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607098685955</updated>
-      <workItem from="1607098687538" duration="3531000" />
+      <workItem from="1607098687538" duration="3790000" />
     </task>
     <task id="LOCAL-00001" summary="Generated part 2 project">
       <created>1607098712068</created>
@@ -101,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607098712068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Thought I had a working solution but it doesn't work, needs more testing">
+      <created>1607102261167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607102261167</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generated part 2 project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated part 2 project" />
+    <MESSAGE value="Thought I had a working solution but it doesn't work, needs more testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thought I had a working solution but it doesn't work, needs more testing" />
   </component>
 </project>
