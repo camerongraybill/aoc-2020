@@ -67,7 +67,7 @@ fn main() {
     let args = App::new("Day five part one of AOC 2020!!")
         .arg(Arg::with_name("input-file").takes_value(true))
         .get_matches();
-    let seat_count = fs::read_to_string(
+    let max_seat = fs::read_to_string(
         args.value_of("input-file").unwrap()
     )
         .unwrap()
@@ -75,6 +75,6 @@ fn main() {
         .map(|raw_seat| raw_seat.parse::<Seat>().unwrap())
         .map(|s| seat_id(&s))
         .max();
-    println!("{}", seat_count.unwrap());
+    println!("{}", max_seat.unwrap());
 }
 
