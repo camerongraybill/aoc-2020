@@ -12,7 +12,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67910d55-2f9f-4177-a226-535ab210c2ed" name="Default Changelist" comment="" />
+    <list default="true" id="67910d55-2f9f-4177-a226-535ab210c2ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_5_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_5_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_5_1/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../day_5_1/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,6 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607098685955</updated>
       <workItem from="1607098687538" duration="3790000" />
+      <workItem from="1607200799571" duration="731000" />
     </task>
     <task id="LOCAL-00001" summary="Generated part 2 project">
       <created>1607098712068</created>
