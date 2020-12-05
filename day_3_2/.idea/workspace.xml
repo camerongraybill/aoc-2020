@@ -12,7 +12,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a12c910d-7e5e-4f2e-ad07-ef3be5afc258" name="Default Changelist" comment="" />
+    <list default="true" id="a12c910d-7e5e-4f2e-ad07-ef3be5afc258" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +79,7 @@
       <workItem from="1607012747854" duration="138000" />
       <workItem from="1607013576234" duration="1234000" />
       <workItem from="1607094784876" duration="190000" />
+      <workItem from="1607153624461" duration="741000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo for part 2">
       <created>1607010830418</created>
