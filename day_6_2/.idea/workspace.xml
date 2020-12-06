@@ -12,7 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef70943c-d48d-4c22-9ece-04d851491aa5" name="Default Changelist" comment="" />
+    <list default="true" id="f1b7703a-37b0-4f8c-abd1-067c9ee82277" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="a7pmhn8y" />
+    <option name="directoryName" value="rrbhtm44" />
   </component>
-  <component name="ProjectId" id="1lI5lHoaY8PXdqK5ksO4uSFf7Af" />
+  <component name="ProjectId" id="1lI77vOziPfx6zVlzhtBEaG4ZpS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,22 +40,10 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run">
+  <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_6_1 --bin day_6_1 -- E:\advent_of_code_2020\day_6_1\input.txt" />
-      <option name="allFeatures" value="false" />
-      <option name="emulateTerminal" value="false" />
-      <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test main::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
-      <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package day_6_1 --bin day_6_1 tests" />
+      <option name="command" value="run --package day_6_2 --bin day_6_2 -- E:\advent_of_code_2020\day_6_2\input.txt" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -81,15 +69,6 @@
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Test main::tests" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cargo.Test main::tests" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -97,28 +76,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ef70943c-d48d-4c22-9ece-04d851491aa5" name="Default Changelist" comment="" />
-      <created>1607271913754</created>
+      <changelist id="f1b7703a-37b0-4f8c-abd1-067c9ee82277" name="Default Changelist" comment="" />
+      <created>1607272588138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607271913754</updated>
-      <workItem from="1607271915476" duration="723000" />
+      <updated>1607272588138</updated>
+      <workItem from="1607272589534" duration="38000" />
     </task>
-    <task id="LOCAL-00001" summary="Generated day 6 part 1 project">
-      <created>1607272041934</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607272041934</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Part 1 done">
-      <created>1607272575373</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607272575373</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,10 +95,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generated day 6 part 1 project" />
-    <MESSAGE value="Part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 done" />
   </component>
 </project>
