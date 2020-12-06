@@ -12,8 +12,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34f165a-9f45-4519-a697-8081dce021a8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef70943c-d48d-4c22-9ece-04d851491aa5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_4_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_5_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_5_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +28,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="vko21pgb" />
+    <option name="directoryName" value="a7pmhn8y" />
   </component>
-  <component name="ProjectId" id="1lFrpzyQVUm5T6FlWIfYmwjeJuB" />
+  <component name="ProjectId" id="1lI5lHoaY8PXdqK5ksO4uSFf7Af" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,7 +46,7 @@
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_5_2 --bin day_5_2 -- E:\advent_of_code_2020\day_5_2\input.txt" />
+      <option name="command" value="run --package day_6_1 --bin day_6_1 -- E:\advent_of_code_2020\day_6_1\input.txt" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -55,37 +56,36 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d34f165a-9f45-4519-a697-8081dce021a8" name="Default Changelist" comment="" />
-      <created>1607203867166</created>
+      <changelist id="ef70943c-d48d-4c22-9ece-04d851491aa5" name="Default Changelist" comment="" />
+      <created>1607271913754</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607203867166</updated>
-      <workItem from="1607203868555" duration="610000" />
-      <workItem from="1607204748576" duration="508000" />
+      <updated>1607271913754</updated>
+      <workItem from="1607271915476" duration="120000" />
     </task>
-    <task id="LOCAL-00001" summary="Generated Day 5 part 2">
-      <created>1607203912478</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607203912478</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Done with part 2">
-      <created>1607204481792</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607204481793</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,11 +98,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generated Day 5 part 2" />
-    <MESSAGE value="Done with part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with part 2" />
   </component>
 </project>
