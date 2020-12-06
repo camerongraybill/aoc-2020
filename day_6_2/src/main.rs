@@ -3,8 +3,14 @@ use std::str::FromStr;
 use std::fs;
 use std::collections::{HashSet};
 
-struct DeclarationGroup {
+
+struct DeclarationForm {
     data: HashSet<u8>,
+}
+
+
+struct DeclarationGroup {
+    data: Vec<DeclarationForm>,
 }
 
 impl FromStr for DeclarationGroup {
@@ -13,56 +19,78 @@ impl FromStr for DeclarationGroup {
     fn from_str(s: &str) -> Result<Self, Self::Err> {
         Ok(DeclarationGroup {
             data: s
-                .bytes()
-                .filter(|b| *b != b'\n')
+                .lines()
+                .map(|line| line.parse::<DeclarationForm>().unwrap())
                 .collect()
         })
     }
 }
 
+impl FromStr for DeclarationForm {
+    type Err = String;
+
+    fn from_str(s: &str) -> Result<Self, Self::Err> {
+        Ok(DeclarationForm {
+            data: s
+                .bytes()
+                .collect()
+        })
+    }
+
+}
+
+fn extract_all_items(group: &DeclarationGroup) -> HashSet<u8> {
+    group
+        .data[1..]
+        .iter()
+        .fold(
+            group.data[0].data.clone(),
+            |a, b| a.intersection(&b.data).copied().collect()
+        )
+}
 
 #[cfg(test)]
 mod tests {
     use super::*;
     #[test]
     fn test_declaration_group_fromstr_1() -> Result<(), String> {
-        let passport = "abc".parse::<DeclarationGroup>().unwrap();
-        assert_eq!(passport.data.len(), 3);
-        assert!(passport.data.contains(&b'a'));
-        assert!(passport.data.contains(&b'b'));
-        assert!(passport.data.contains(&b'c'));
+        let group = "abc".parse::<DeclarationGroup>().unwrap();
+        let all_items = extract_all_items(&group);
+        assert_eq!(all_items.len(), 3);
+        assert!(all_items.contains(&b'a'));
+        assert!(all_items.contains(&b'b'));
+        assert!(all_items.contains(&b'c'));
         Ok(())
     }
     #[test]
     fn test_declaration_group_fromstr_2() -> Result<(), String> {
-        let passport = "a\nb\nc".parse::<DeclarationGroup>().unwrap();
-        assert_eq!(passport.data.len(), 3);
-        assert!(passport.data.contains(&b'a'));
-        assert!(passport.data.contains(&b'b'));
-        assert!(passport.data.contains(&b'c'));
+        let group = "a\nb\nc".parse::<DeclarationGroup>().unwrap();
+        let all_items = extract_all_items(&group);
+        assert_eq!(all_items.len(), 0);
         Ok(())
     }
     #[test]
     fn test_declaration_group_fromstr_3() -> Result<(), String> {
-        let passport = "ab\nac".parse::<DeclarationGroup>().unwrap();
-        assert_eq!(passport.data.len(), 3);
-        assert!(passport.data.contains(&b'a'));
-        assert!(passport.data.contains(&b'b'));
-        assert!(passport.data.contains(&b'c'));
+        let group = "ab\nac".parse::<DeclarationGroup>().unwrap();
+        let all_items = extract_all_items(&group);
+        assert_eq!(all_items.len(), 1);
+        assert!(all_items.contains(&b'a'));
         Ok(())
     }
     #[test]
     fn test_declaration_group_fromstr_4() -> Result<(), String> {
-        let passport = "a\na\na\na".parse::<DeclarationGroup>().unwrap();
-        assert_eq!(passport.data.len(), 1);
-        assert!(passport.data.contains(&b'a'));
+        let group = "a\na\na\na".parse::<DeclarationGroup>().unwrap();
+        let all_items = extract_all_items(&group);
+        assert_eq!(all_items.len(), 1);
+        assert!(all_items.contains(&b'a'));
         Ok(())
     }
     #[test]
     fn test_declaration_group_fromstr_5() -> Result<(), String> {
-        let passport = "b".parse::<DeclarationGroup>().unwrap();
-        assert_eq!(passport.data.len(), 1);
-        assert!(passport.data.contains(&b'b'));
+        let group = "b".parse::<DeclarationGroup>().unwrap();
+        let all_items = extract_all_items(&group);
+        assert_eq!(all_items.len(), 1);
+        assert!(all_items.contains(&b'b'));
         Ok(())
     }
 
@@ -79,7 +107,7 @@ fn main() {
         .unwrap()
         .split("\n\n")
         .map(|group| group.parse::<DeclarationGroup>().unwrap())
-        .map(|group| group.data.len())
+        .map(|group| extract_all_items(&group).len())
         .sum();
     println!("{}", total_count);
 }
