@@ -23,6 +23,12 @@ fn bag_contains(rules: &AllRules, bag: &Color, contains: &Color) -> bool {
     contained_colors.contains(contains) || contained_colors.iter().any(|contained_color| bag_contains(rules, contained_color, contains))
 }
 
+fn bag_full_depth(rules: &AllRules, bag: &Color) -> usize {
+    rules.data[bag].data.iter()
+        .map(|bag| 1 + bag_full_depth(&rules, &bag))
+        .sum()
+}
+
 impl FromStr for ColorRule {
     type Err = String;
 
@@ -97,6 +103,6 @@ fn main() {
         .unwrap()
         .parse::<AllRules>().unwrap();
     let target_color = "shiny gold".to_string();
-    println!("{}", all_rules.data.keys().filter(|color| bag_contains(&all_rules, color, &target_color)).count())
+    println!("{}", bag_full_depth(&all_rules, &target_color))
 }
 
