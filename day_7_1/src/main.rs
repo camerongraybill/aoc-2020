@@ -1,83 +1,102 @@
 use clap::{Arg, App};
 use std::str::FromStr;
 use std::fs;
-use std::collections::{HashSet};
+use std::collections::{HashMap, HashSet};
 
+type Color = String;
 
-struct DeclarationForm {
-    data: HashSet<u8>,
+struct ColorRule {
+    bag_color: Color,
+    contents: BagContents,
 }
 
-
-struct DeclarationGroup {
-    data: Vec<DeclarationForm>,
+struct BagContents {
+    data: Vec<Color>
 }
 
-impl FromStr for DeclarationGroup {
+struct AllRules {
+    data: HashMap<Color, BagContents>
+}
+
+fn bag_contains(rules: &AllRules, bag: &Color, contains: &Color) -> bool {
+    let contained_colors: HashSet<&String> = rules.data[bag].data.iter().collect();
+    contained_colors.contains(contains) || contained_colors.iter().any(|contained_color| bag_contains(rules, contained_color, contains))
+}
+
+impl FromStr for ColorRule {
     type Err = String;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        Ok(DeclarationGroup {
-            data: s
-                .lines()
-                .map(|line| line.parse::<DeclarationForm>().unwrap())
-                .collect()
+        let space_pos: Vec<usize> = s
+            .match_indices(' ')
+            .map(|(idx, _)| idx)
+            .collect();
+
+        Ok(ColorRule {
+            bag_color: s[0..space_pos[1]].to_string(),
+            contents: BagContents {
+                data: space_pos[3..]
+                    .iter()
+                    .zip(1..)
+                    .map(|(_, idx)| idx)
+                    .filter(|idx| idx % 4 == 0 )
+                    // idx is now the index of the space before the number
+                    .map(|idx| (s[(space_pos[idx - 1] + 1)..space_pos[idx]].parse::<usize>().unwrap(), &s[(space_pos[idx] + 1)..space_pos[idx + 2]]) )
+                    .flat_map(|(count, color)| (0..count).map(move |_| color.to_string()))
+                    .collect()
+            }
+
         })
     }
 }
 
-impl FromStr for DeclarationForm {
+impl FromStr for AllRules {
     type Err = String;
 
     fn from_str(s: &str) -> Result<Self, Self::Err> {
-        Ok(DeclarationForm {
-            data: s
-                .bytes()
-                .collect()
-        })
-    }
-
-}
-
-fn extract_all_items(group: &DeclarationGroup) -> HashSet<u8> {
-    group
-        .data[1..]
-        .iter()
-        .fold(
-            group.data[0].data.clone(),
-            |a, b| a.intersection(&b.data).copied().collect()
+        Ok(
+            AllRules {
+                data: s
+                    .lines()
+                    .map(|line| line.parse::<ColorRule>().unwrap())
+                    .map(|rule| (rule.bag_color, rule.contents))
+                    .collect()
+            }
         )
+    }
 }
+
 
 #[cfg(test)]
 mod tests {
     use super::*;
     #[test]
-    fn test_declaration_group_fromstr_1() -> Result<(), String> {
-        let group = "abc".parse::<DeclarationGroup>().unwrap();
-        let all_items = extract_all_items(&group);
-        assert_eq!(all_items.len(), 3);
-        assert!(all_items.contains(&b'a'));
-        assert!(all_items.contains(&b'b'));
-        assert!(all_items.contains(&b'c'));
+    fn test_example_1() -> Result<(), String> {
+        let rule = "light red bags contain 1 bright white bag, 2 muted yellow bags.".parse::<ColorRule>()?;
+        assert_eq!(rule.bag_color, "light red");
+        assert_eq!(rule.contents.data.len(), 3);
         Ok(())
     }
-
+    #[test]
+    fn test_example_2() -> Result<(), String> {
+        let rule = "faded blue bags contain no other bags.".parse::<ColorRule>()?;
+        assert_eq!(rule.bag_color, "faded blue");
+        assert_eq!(rule.contents.data.len(), 0);
+        Ok(())
+    }
 }
 
 
 fn main() {
     let args = App::new("Day seven part one of AOC 2020!!")
-        .arg(Arg::with_name("input-file").takes_value(true))
-        .get_matches();
-    let total_count: usize = fs::read_to_string(
+         .arg(Arg::with_name("input-file").takes_value(true))
+         .get_matches();
+    let all_rules = fs::read_to_string(
         args.value_of("input-file").unwrap()
     )
         .unwrap()
-        .split("\n\n")
-        .map(|group| group.parse::<DeclarationGroup>().unwrap())
-        .map(|group| extract_all_items(&group).len())
-        .sum();
-    println!("{}", total_count);
+        .parse::<AllRules>().unwrap();
+    let target_color = "shiny gold".to_string();
+    println!("{}", all_rules.data.keys().filter(|color| bag_contains(&all_rules, color, &target_color)).count())
 }
 
