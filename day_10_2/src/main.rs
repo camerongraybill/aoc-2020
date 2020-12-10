@@ -37,7 +37,7 @@ fn count_charger_chains(data: &[usize], cache: bool) -> usize {
 fn count_charger_chains_impl(data: &[usize]) -> usize {
     let last_placed_charger = &data[0];
 
-    if data.len() == 0 {
+    if data.len() == 1 {
         1
     } else {
         (1..min(4, data.len()))
