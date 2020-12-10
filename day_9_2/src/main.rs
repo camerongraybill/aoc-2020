@@ -21,6 +21,22 @@ fn find_first_broken_idx(data: &Vec<usize>, preamble_size: usize) -> usize {
         .1
 }
 
+fn find_contiguous_addition(data: &Vec<usize>, target: usize) -> &[usize] {
+    for starting_idx in 0..data.len() {
+        for end_idx in starting_idx..data.len() {
+            let range = &data[starting_idx..=end_idx];
+            let sum: usize = range.iter().sum();
+            if sum > target {
+                break;
+            }
+            if sum == target {
+                return range;
+            }
+        }
+    }
+    unreachable!()
+}
+
 fn main() {
     let args = App::new("Day nine part two of AOC 2020!!")
         .arg(Arg::with_name("input-file").takes_value(true))
@@ -34,6 +50,10 @@ fn main() {
         .map(|line| line.parse().unwrap())
         .collect();
     let preamble_size: usize = args.value_of("preamble-size").unwrap().parse().unwrap();
-    println!("{}", input_data[find_first_broken_idx(&input_data, preamble_size)]);
+    let part_one_answer = input_data[find_first_broken_idx(&input_data, preamble_size)];
+    let part_two_range = find_contiguous_addition(&input_data, part_one_answer);
+
+
+    println!("{}", part_two_range.iter().min().unwrap() + part_two_range.iter().max().unwrap());
 }
 
