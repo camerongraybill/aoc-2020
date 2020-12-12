@@ -12,7 +12,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ad0033-d212-45b4-afc1-c840e61b1bfa" name="Default Changelist" comment="" />
+    <list default="true" id="df2d10ac-8348-4af3-9e9a-66186c14d3e5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_12_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_12_1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,9 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="4xkoj11u" />
+    <option name="directoryName" value="vgi8svuh" />
   </component>
-  <component name="ProjectId" id="1lZ2LkMKs65jzC7nRuCJAYyH7gv" />
+  <component name="ProjectId" id="1lZ9O7Cm4gRJFegepM3ntjSdyAP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,7 +45,7 @@
   <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_12_1 --bin day_12_1 -- E:\advent_of_code_2020\day_12_1\input.txt" />
+      <option name="command" value="run --package day_12_2 --bin day_12_2 -- E:\advent_of_code_2020\day_12_2\input.txt" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -76,28 +78,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88ad0033-d212-45b4-afc1-c840e61b1bfa" name="Default Changelist" comment="" />
-      <created>1607790238967</created>
+      <changelist id="df2d10ac-8348-4af3-9e9a-66186c14d3e5" name="Default Changelist" comment="" />
+      <created>1607793710928</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607790238967</updated>
-      <workItem from="1607790240537" duration="3463000" />
+      <updated>1607793710928</updated>
+      <workItem from="1607793712476" duration="49000" />
     </task>
-    <task id="LOCAL-00001" summary="Generated day 12 pt 1">
-      <created>1607790352304</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607790352304</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Part 1 done">
-      <created>1607793700557</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607793700557</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,10 +97,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Generated day 12 pt 1" />
-    <MESSAGE value="Part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 done" />
   </component>
 </project>
