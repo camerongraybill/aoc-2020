@@ -13,7 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ad0033-d212-45b4-afc1-c840e61b1bfa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day_11_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_11_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +84,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607790238967</updated>
-      <workItem from="1607790240537" duration="100000" />
+      <workItem from="1607790240537" duration="3344000" />
     </task>
+    <task id="LOCAL-00001" summary="Generated day 12 pt 1">
+      <created>1607790352304</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607790352304</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Generated day 12 pt 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated day 12 pt 1" />
   </component>
 </project>
