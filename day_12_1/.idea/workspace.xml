@@ -12,8 +12,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76cb60ed-ec50-42be-9ef4-d6f781d6bbc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="88ad0033-d212-45b4-afc1-c840e61b1bfa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_11_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_11_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="qkb4m1zc" />
+    <option name="directoryName" value="4xkoj11u" />
   </component>
-  <component name="ProjectId" id="1lWKoiDo3GEUhs0RqVrv1c1TguN" />
+  <component name="ProjectId" id="1lZ2LkMKs65jzC7nRuCJAYyH7gv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,18 +40,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\advent_of_code_2020\day_11_2" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Cargo.Run">
+  <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_11_2 --bin day_11_2 -- E:\advent_of_code_2020\day_11_2\input.txt" />
+      <option name="command" value="run --package day_12_1 --bin day_12_1 -- E:\advent_of_code_2020\day_12_1\input.txt" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -61,51 +55,36 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test main::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package day_11_2 --bin day_11_2 tests" />
+      <option name="command" value="run" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Test main::tests" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cargo.Test main::tests" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="76cb60ed-ec50-42be-9ef4-d6f781d6bbc2" name="Default Changelist" comment="" />
-      <created>1607707583544</created>
+      <changelist id="88ad0033-d212-45b4-afc1-c840e61b1bfa" name="Default Changelist" comment="" />
+      <created>1607790238967</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607707583544</updated>
-      <workItem from="1607707584914" duration="1153000" />
-      <workItem from="1607790209244" duration="54000" />
+      <updated>1607790238967</updated>
+      <workItem from="1607790240537" duration="100000" />
     </task>
-    <task id="LOCAL-00001" summary="Done with day 11 part 2!">
-      <created>1607708747048</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607708747048</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,10 +97,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Done with day 11 part 2!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with day 11 part 2!" />
   </component>
 </project>
