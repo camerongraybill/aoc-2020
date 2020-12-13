@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
-  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
@@ -12,8 +9,8 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2d10ac-8348-4af3-9e9a-66186c14d3e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8413642a-dedf-4198-b4e5-490ecf9092be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../day_12_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day_12_2/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MacroExpansionManager">
-    <option name="directoryName" value="vgi8svuh" />
+    <option name="directoryName" value="j8hgkxua" />
   </component>
-  <component name="ProjectId" id="1lZ9O7Cm4gRJFegepM3ntjSdyAP" />
+  <component name="ProjectId" id="1lbxIP4DO2o2epcoXzusRjKyWv3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -42,10 +39,10 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
-  <component name="RunManager" selected="Cargo.Run">
+  <component name="RunManager">
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="run --package day_12_2 --bin day_12_2 -- E:\advent_of_code_2020\day_12_2\input.txt" />
+      <option name="command" value="run --package day_13_1 --bin day_13_1" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -55,59 +52,31 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test main::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration default="true" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package day_12_2 --bin day_12_2 tests" />
+      <option name="command" value="run" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Cargo.Run" />
-      <item itemvalue="Cargo.Test main::tests" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Cargo.Test main::tests" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
-    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df2d10ac-8348-4af3-9e9a-66186c14d3e5" name="Default Changelist" comment="" />
-      <created>1607793710928</created>
+      <changelist id="8413642a-dedf-4198-b4e5-490ecf9092be" name="Default Changelist" comment="" />
+      <created>1607879512215</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607793710928</updated>
-      <workItem from="1607793712476" duration="3613000" />
-      <workItem from="1607871127980" duration="257000" />
-      <workItem from="1607879493645" duration="41000" />
+      <updated>1607879512215</updated>
+      <workItem from="1607879514096" duration="20000" />
     </task>
-    <task id="LOCAL-00001" summary="Copied part 1 to part 2">
-      <created>1607793777464</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1607793777464</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Done with part 2">
-      <created>1607797353056</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1607797353056</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,11 +89,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Copied part 1 to part 2" />
-    <MESSAGE value="Done with part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done with part 2" />
   </component>
 </project>
