@@ -12,10 +12,7 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0056d4d3-dc65-457d-a50e-1ad5fad5952f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-    </list>
+    <list default="true" id="0056d4d3-dc65-457d-a50e-1ad5fad5952f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607880313526</updated>
-      <workItem from="1607880314985" duration="1805000" />
+      <workItem from="1607880314985" duration="1924000" />
     </task>
     <task id="LOCAL-00001" summary="Generated part 2">
       <created>1607880359691</created>
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607880359691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solved with wolfram alpha lul">
+      <created>1607882253858</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607882253858</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +140,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generated part 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated part 2" />
+    <MESSAGE value="Solved with wolfram alpha lul" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved with wolfram alpha lul" />
   </component>
 </project>
